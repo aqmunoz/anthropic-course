@@ -1,0 +1,11 @@
+[
+  {
+    "task": "Write a Python function named `list_untagged_ec2_instances` that takes a boto3 EC2 client and a required tag key (string), paginates through `describe_instances`, and returns a sorted list of instance IDs that do not have the specified tag key."
+  },
+  {
+    "task": "Create a single JSON object representing an AWS IAM policy document (Version 2012-10-17) that allows only the s3:GetObject and s3:PutObject actions on objects in the bucket 'example-app-data' under the prefix 'uploads/', and explicitly denies all S3 actions on that bucket and its objects when the request is not made over HTTPS (aws:SecureTransport is false)."
+  },
+  {
+    "task": "Write a single regular expression that matches a valid AWS S3 ARN for an object, in the format 'arn:aws:s3:::bucket-name/key-path', where the bucket name is 3-63 characters long, consisting of lowercase letters, numbers, hyphens, and periods, starting and ending with a letter or number, and the key path is one or more characters after the first slash."
+  }
+]
